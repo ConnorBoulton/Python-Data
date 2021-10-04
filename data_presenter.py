@@ -61,8 +61,9 @@ print(sum(total))
 cup_cakes.close()
 
 import matplotlib.pyplot as plt
-plt.bar(xAxis,yAxis)
-plt.title('title name')
-plt.xlabel('xAxis name')
-plt.ylabel('yAxis name')
+
+plt.bar(['chocolate', 'Vanilla', 'Strawberry'], [total_chocolate, total_vanilla, total_strawberry])
+
 plt.show()
+
+# Im not sure why I have to comment the previous codes from problem 2 - 4 for the 5 - 6 code to work. But everything should work just fine
